@@ -14,13 +14,15 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license === "MIT") {
-    return `https://lbesson.mit-license.org/`;
+    return `https://img.shields.io/badge/License-MIT-yellow.svg`;
   }
   if (license === "GPL") {
-    return `http://perso.crans.org/besson/LICENSE.html`;
+    return `https://img.shields.io/badge/License-GPLv3-blue.svg`;
   }
   if (license === "Apache") {
-    return `http://www.apache.org/licenses/LICENSE-2.0`;
+    return `https://img.shields.io/badge/License-Apache_2.0-blue.svg`;
+  } else {
+    return "";
   }
 }
 
