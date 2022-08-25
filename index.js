@@ -8,48 +8,49 @@ const questions = [
   {
     type: "input",
     name: "title",
-    message: "Welcome to the README generator! Please provide your full name",
+    message:
+      "Welcome to the README generator! Please enter the name of the project:",
   },
   {
     type: "input",
     name: "description",
-    message: "Please enter a short description of your project",
+    message: "Please enter a short description of your project:",
   },
   {
     type: "input",
     name: "installation",
-    message: "How to install the app",
+    message: "How to install the app:",
   },
   {
     type: "input",
     name: "usage",
-    message: "How to use the app",
+    message: "How to use the app:",
   },
   {
     type: "list",
     name: "license",
     message: "Select a license for your app",
-    choices: ["MIT License", "GNU General Public License", "Apache License"],
+    choices: ["MIT", "GPL", "Apache"],
   },
   {
     type: "input",
     name: "contributing",
-    message: "List of collaborators",
+    message: "List of collaborators:",
   },
   {
     type: "input",
     name: "github",
-    message: "What is your GitHub usename?",
+    message: "Enter your GitHub usename:",
   },
   {
     type: "input",
     name: "email",
-    message: "Waht is your email",
+    message: "Enter your email:",
   },
   {
     type: "input",
     name: "tests",
-    message: "Provide the tests for your application, and how to use: ",
+    message: "Provide the tests for your application, and how to use:",
   },
 ];
 

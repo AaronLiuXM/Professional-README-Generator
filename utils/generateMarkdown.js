@@ -6,7 +6,7 @@ function renderLicenseBadge(license) {
   if (!license) {
     return ``;
   } else {
-    return `[${license}](${renderLicenseLink(license)})`;
+    return `![${license}](${renderLicenseLink(license)})`;
   }
 }
 
@@ -40,6 +40,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseSection(data.license)}
+  
 
   ## Description
   ${data.description}
@@ -58,9 +59,6 @@ function generateMarkdown(data) {
 
   ## License
   Project is Licensed under the ${data.license}
-
-  ## Badges
-  ${renderLicenseSection(data.license)}
 
   ## Collaborators
   ${data.contributing}

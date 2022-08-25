@@ -1,5 +1,6 @@
-# professional 
-  [MIT License]()
+# Professional README project
+  [![License]((https://img.shields.io/badge/License-MIT-yellow.svg))]
+  
 
   ## Description
   test
@@ -14,13 +15,10 @@
   test
 
   ## Usage
-   testing
+  test
 
   ## License
-  Project is Licensed under the MIT License
-
-  ## Badges
-  [MIT License]()
+  Project is Licensed under the MIT
 
   ## Collaborators
   none
