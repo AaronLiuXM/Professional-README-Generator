@@ -42,4 +42,4 @@ WHEN I click on the links in the Table of Contents
 
 THEN I am taken to the corresponding section of the README
 
-![walk through video]()
+[professional readme walkthrough.webm](https://user-images.githubusercontent.com/104994115/186552364-a6ae7c8b-394c-47d4-82d7-6081a701f810.webm)
